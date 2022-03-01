@@ -1,2 +1,90 @@
 @import url(https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700);
 @import url(https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i);
+
+/* VARIABLES */
+:root {
+    --bs-main-color: #974a2d; 
+    --bs-primary-color: #cb8e7e;
+    --bs-secondary-color: #453b3b;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--bs-main-color);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: calc(1.725rem + 5.7vw);
+}
+
+h2 {
+    font-size: calc(1.475rem + 2.7vw);
+}
+
+/* Hyperlinks */
+a.links {
+    color: var(--bs-secondary-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--bs-primary-color);
+}
+
+/* Classes */
+.text-secondary {
+    color: var(--bs-secondary-color) !important;
+}
+
+.subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Sections */
+section.resume-section {
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 5rem 1rem 5rem 1rem;
+    max-width: 75rem;
+    /* min-height: 100vh; */
+}
+
+section.resume-section-content {
+    width: 100%;
+}
+
+/* IMAGES AND ICONS */
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: var(--bs-primary-color);
+    color: white;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+    background-color: var(--bs-secondary-color);
+}
