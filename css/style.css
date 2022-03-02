@@ -6,6 +6,7 @@
     --bs-main-color: #974a2d; 
     --bs-primary-color: #cb8e7e;
     --bs-secondary-color: #453b3b;
+    --bs-light-color: #d6d6d6;
 }
 
 /* Headings */
@@ -87,4 +88,63 @@ section.resume-section-content {
 
 .social-icons .social-icon:hover {
     background-color: var(--bs-secondary-color);
+}
+
+.bg-image {
+    background-image: url("../ims/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* Header bar */
+.header-bar {
+    background-color: var(--bs-secondary-color);
+}
+
+.header-home-link {
+    color: var(--bs-light-color) !important;
+    font-weight: 600 !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-profile {
+    width: 20vw;
+    height: 20vw;
+    float: right;
+}
+
+.navbar-brand {
+padding-top: 0.3125rem;
+padding-bottom: 0.3125rem;
+margin-right: 1rem;
+font-size: 1.25rem;
+text-decoration: none;
+white-space: nowrap;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-lg-none {
+    display: none !important;
+}
+
+.d-lg-block {
+    display: block !important;
+  }
+
+
+/* Resumee */
+.resume-next-to-image {
+    display: inline-block;
+    vertical-align: middle;
+    /* border: solid black; */
 }
